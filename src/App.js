@@ -10,9 +10,10 @@ function App() {
       <Router>
         <Routes>
           <Route path="/search" />
-            {/*Second Page - Search Page (Page with all the search results)
+          {/*Second Page - Search Page (Page with all the search results)
             <h1>This is the search bar</h1>*/}
-          <Route path="/" exact element={<Home />} /> {/*First Page - Home Page page with the search bar*/}
+          <Route path="/" exact element={<Home />} />{" "}
+          {/*First Page - Home Page page with the search bar*/}
         </Routes>
       </Router>
     </div>
